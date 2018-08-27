@@ -383,7 +383,7 @@ class App extends Component {
             </a>{' '}
             is the full warm-up set we do.{' '}
             <a
-              href="https://github.com/GrantCuster/set-counter/blob/master/README.md"
+              href="https://github.com/GrantCuster/set-counter"
               target="_blank"
             >
               Code
