@@ -81,7 +81,7 @@ class App extends Component {
           }
           this.state.synth.speak(utterThis)
           let round_voice
-          if (rl === 'y') {
+          if (rl === 'y' && voices.length > 0) {
             round_voice = voices[Math.floor(Math.random() * voices.length)]
             let round_language = languages[round_voice.lang.slice(0, 2)]
             let utterThis = new SpeechSynthesisUtterance(
@@ -116,7 +116,7 @@ class App extends Component {
                 me.setState({ readout: default_readout })
               }
             }
-            if (rl === 'y') {
+            if (rl === 'y' && voices.length > 0) {
               utterThis.voice = round_voice
             }
             utterThis.volume = cv
@@ -375,9 +375,9 @@ class App extends Component {
             </a>
             . You can add counters and subcounters and adjust their speed. In
             class we often do each new set in a different language. I added that
-            option here as well. All the settings are contained in the URL, so
-            if you make a set-up you like you can get to it anytime by copying
-            the URL.{' '}
+            option here as well--though it does not always work on mobile. All
+            the settings are contained in the URL, so if you make a set-up you
+            like you can get to it anytime by copying the URL.{' '}
             <a href="http://grantcuster.github.io/set-counter?c[0][to]=10&c[1][to]=10&c[1][sc]=2&c[2][to]=10&c[2][sc]=3&c[3][to]=10&c[3][sc]=4&c[4][to]=10&c[4][sc]=5&c[5][to]=10&c[5][sc]=6&c[6][to]=10&c[7][to]=10&c[7][sc]=7&c[8][to]=10&c[8][sc]=8&c[9][to]=10&c[9][sc]=9&c[10][to]=10&c[10][sc]=10&c[11][to]=10&c[11][sc]=9&c[12][to]=10&c[12][sc]=8&c[13][to]=10&c[13][sc]=7&c[14][to]=10&c[14][sc]=6&c[15][to]=10&c[15][sc]=5&c[16][to]=10&c[16][sc]=4&c[17][to]=10&c[17][sc]=3&c[18][to]=10&c[18][sc]=2&c[19][to]=10&sp=s&cv=1&cr=1&sv=0.5&sr=1.25&rl=y">
               This, for example,
             </a>{' '}
