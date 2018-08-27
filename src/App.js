@@ -366,8 +366,8 @@ class App extends Component {
           </div>
           <div style={{ borderTop: 'solid 1px black' }}>
             This is a set counter I (
-            <a href="//feed.grantcuster.com/about">Grant</a>) made to do a warm
-            up count for{' '}
+            <a href="http://feed.grantcuster.com/about">Grant</a>) made to do a
+            warm up count for{' '}
             <a href="http://www.bkwingtsun.com/" target="_blank">
               Wing Tsun
             </a>
