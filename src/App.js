@@ -379,7 +379,10 @@ class App extends Component {
             <a href="http://localhost:3000/?c[0][to]=10&c[1][to]=10&c[1][sc]=2&c[2][to]=10&c[2][sc]=3&c[3][to]=10&c[3][sc]=4&c[4][to]=10&c[4][sc]=5&c[5][to]=10&c[5][sc]=6&c[6][to]=10&c[7][to]=10&c[7][sc]=7&c[8][to]=10&c[8][sc]=8&c[9][to]=10&c[9][sc]=9&c[10][to]=10&c[10][sc]=10&c[11][to]=10&c[11][sc]=9&c[12][to]=10&c[12][sc]=8&c[13][to]=10&c[13][sc]=7&c[14][to]=10&c[14][sc]=6&c[15][to]=10&c[15][sc]=5&c[16][to]=10&c[16][sc]=4&c[17][to]=10&c[17][sc]=3&c[18][to]=10&c[18][sc]=2&c[19][to]=10&sp=s&cv=1&cr=1&sv=0.5&sr=1.25&rl=y">
               This, for example,
             </a>{' '}
-            is the full warm-up set we do.
+            is the full warm-up set we do.{' '}
+            <a href="https://github.com/GrantCuster/set-counter/blob/master/README.md">
+              Code
+            </a>
           </div>
         </div>
       </div>
