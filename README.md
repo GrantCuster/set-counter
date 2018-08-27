@@ -1,7 +1,10 @@
-# Uniform State Locator
+# Set Counter
 
-Viewable at: https://grantcuster.github.io/usl
+Viewable at: https://grantcuster.github.io/set-counter
 
-A minimal example React app, showing how to keep state in the URL and history in the browser's local storage. Especially useful for prototypiing generators.
+A warm-up set counter for Wing Tsun.
+
+A continuation of the all-state-in-the-url experiment from
+[USL}(https://grantcuster.github.io/usl).
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
